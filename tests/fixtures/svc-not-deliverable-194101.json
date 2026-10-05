@@ -1,0 +1,118 @@
+{
+ "CACHE_INVALIDATION_TTL": "0",
+ "META_INFO": {
+  "abContext": {
+   "abWrapper": []
+  },
+  "appConfigHash": null,
+  "clientConfigHashMap": null,
+  "dcInfo": null,
+  "omnitureInfo": null
+ },
+ "REQUEST": null,
+ "REQUEST-ID": "ad7b67db-68b0-4741-ae2a-68a4e5af708d",
+ "RESPONSE": {
+  "ACCFSDGXX3S6DVBG": {
+   "type": "ProductServiceabilityValue",
+   "id": "ACCFSDGXX3S6DVBG",
+   "listingSummary": {
+    "type": "ListingSummaryValue",
+    "available": true,
+    "listingId": "LSTACCFSDGXX3S6DVBGQTVJX8",
+    "pricing": {
+     "type": "ListingPriceValue",
+     "couponApplied": null,
+     "deliveryCharge": {
+      "additionalText": null,
+      "currency": "INR",
+      "decimalValue": "0.00",
+      "discount": null,
+      "downpaymentRate": 0,
+      "downpaymentRequired": false,
+      "name": "Delivery Charges",
+      "priceType": null,
+      "strikeOff": false,
+      "textStyle": null,
+      "value": 0
+     },
+     "discountAmount": 2000,
+     "emiPrice": null,
+     "extraDiscount": null,
+     "finalPrice": {
+      "additionalText": null,
+      "currency": "INR",
+      "decimalValue": "999.00",
+      "discount": null,
+      "downpaymentRate": 0,
+      "downpaymentRequired": false,
+      "name": "Total",
+      "priceType": null,
+      "strikeOff": false,
+      "textStyle": null,
+      "value": 999
+     },
+     "finalSavingsText": "Overall you save ₹2000 (66%) on this product",
+     "insuredPrice": null,
+     "knowMore": null,
+     "listingPriceType": "REGULAR",
+     "mrp": null,
+     "partPriceInfo": null,
+     "plusPriceInfo": null,
+     "priceDescriptions": null,
+     "pricePerUnit": null,
+     "priceTags": null,
+     "prices": [
+      {
+       "additionalText": "(incl. of all taxes)",
+       "currency": "INR",
+       "decimalValue": "2999.00",
+       "discount": 66,
+       "downpaymentRate": 0,
+       "downpaymentRequired": false,
+       "name": "Maximum Retail Price",
+       "priceType": "MRP",
+       "strikeOff": true,
+       "textStyle": null,
+       "value": 2999
+      },
+      {
+       "additionalText": null,
+       "currency": "INR",
+       "decimalValue": "999.00",
+       "discount": null,
+       "downpaymentRate": 0,
+       "downpaymentRequired": false,
+       "name": "Selling Price",
+       "priceType": "FSP",
+       "strikeOff": false,
+       "textStyle": null,
+       "value": 999
+      }
+     ],
+     "selected": null,
+     "showDiscountAsAmount": false,
+     "subTitle": null,
+     "title": null,
+     "totalDiscount": 66,
+     "upiPriceCallout": null,
+     "upiRegularPriceTitle": null
+    },
+    "sellerInfo": {
+     "type": "SellerInfoValue",
+     "dormantSeller": false,
+     "id": "dd56ad596d1f4bdb",
+     "name": "ExcelsiorRetail",
+     "newSeller": false
+    },
+    "serviceable": false
+   },
+   "titles": {
+    "newTitle": "Airdopes 131,60H Battery, ASAP Charge, Stream Ad Free Music via App Support Bluetooth Headset",
+    "subtitle": "Active Black, In the Ear",
+    "superTitle": "boAt",
+    "title": "boAt Airdopes 131,60H Battery, ASAP Charge, Stream Ad Free Music via App Support Bluetooth"
+   }
+  }
+ },
+ "STATUS_CODE": 200
+}

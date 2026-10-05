@@ -1,0 +1,19 @@
+{
+  "name": "pinreach",
+  "version": "1.0.0",
+  "description": "PinReach — see where a 'Not deliverable' deal CAN be delivered: 75 major cities and your relatives' addresses.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun scripts/build.ts",
+    "icons": "bun scripts/make-icons.ts",
+    "watch": "bun scripts/build.ts --watch",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "@types/chrome": "^0.3.4",
+    "typescript": "^7.0.2"
+  }
+}

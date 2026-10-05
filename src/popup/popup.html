@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PinReach</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>📍 PinReach</h1>
+    <button id="theme" class="icon-btn" title="Theme"></button>
+  </header>
+
+  <section>
+    <h2>Your location</h2>
+    <form id="home" class="row">
+      <input name="pin" inputmode="numeric" maxlength="6" pattern="[1-9][0-9]{5}" placeholder="Pincode" required>
+      <button type="button" id="locate" class="ghost" title="Use my current location">◎</button>
+      <button>Save</button>
+    </form>
+    <p id="home-info" class="hint"></p>
+  </section>
+
+  <section>
+    <h2>Saved addresses</h2>
+    <ul id="saved" class="list"></ul>
+    <form id="add" class="row">
+      <input name="label" placeholder="Name" required maxlength="40">
+      <input name="pin" inputmode="numeric" maxlength="6" pattern="[1-9][0-9]{5}" placeholder="Pincode" required class="pin">
+      <button>Add</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Favourite cities <span class="hint">always checked</span></h2>
+    <div id="favs" class="chips"></div>
+    <form id="fav" class="row">
+      <input name="city" list="cities" placeholder="Add a city" required autocomplete="off">
+      <datalist id="cities"></datalist>
+      <button>Add</button>
+    </form>
+  </section>
+
+  <details>
+    <summary>Settings</summary>
+    <label>Stop after finding
+      <select name="stopAfterHits"><option value="3">3</option><option value="5">5</option><option value="10">10</option><option value="0">Off</option></select>
+    </label>
+    <label>Cities per batch
+      <select name="batchSize"><option value="10">10</option><option value="20">20</option><option value="40">40</option></select>
+    </label>
+    <label>Parallel checks
+      <select name="concurrency"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select>
+    </label>
+    <label>Debug logs <input type="checkbox" name="debug"></label>
+  </details>
+
+  <p id="stores" class="hint"></p>
+  <script src="popup.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+ "pincode": "411045",
+ "serviceable": true,
+ "itemServiceabilityEntries": [
+  {
+   "itemReferenceId": "4028",
+   "skuId": "98838612",
+   "serviceable": true,
+   "serviceabilityEntries": [
+    {
+     "serviceType": "DELIVERY",
+     "shippingMethod": "NORMAL",
+     "availablePaymentModes": ["CARD_ON_DELIVERY", "CASH_ON_DELIVERY", "ONLINE"],
+     "range": 0,
+     "promiseDate": 1791860400000,
+     "orderByTime": 1791304140000,
+     "courierShipByTime": 1791314940000,
+     "preferredDeliveryTags": { "express": false, "promiseTag": "", "expressLabelMap": {}, "preferredExpressTag": {}, "tag": "", "deliveryBucket": "" },
+     "warehouse": "15774"
+    }
+   ]
+  }
+ ]
+}

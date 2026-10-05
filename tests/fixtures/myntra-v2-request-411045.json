@@ -1,0 +1,30 @@
+{
+ "pincode": "411045",
+ "clientReferenceId": "guest_1791225666215",
+ "clientId": "2297",
+ "consolidationEnabled": false,
+ "paymentMode": "ALL",
+ "serviceType": "FORWARD",
+ "shippingMethod": "ALL",
+ "nonWorkingDays": [],
+ "items": [
+  {
+   "itemReferenceId": "4028",
+   "codValue": 1284,
+   "itemValue": 1284,
+   "isHazmat": false,
+   "isLarge": false,
+   "isJewellery": false,
+   "isFragile": false,
+   "codEnabled": true,
+   "openBoxPickupEnabled": true,
+   "tryAndBuyEnabled": false,
+   "isReturnable": true,
+   "procurementTimeInDays": 0,
+   "launchDate": "",
+   "availableInWarehouses": ["78567", "15774"],
+   "skuId": "98838612",
+   "articleType": "Watches"
+  }
+ ]
+}

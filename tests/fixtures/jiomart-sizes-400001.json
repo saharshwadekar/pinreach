@@ -1,0 +1,11 @@
+{
+ "sellable": true,
+ "sizes": [
+  {
+   "display": "OS",
+   "value": "OS",
+   "is_available": true,
+   "quantity": 1
+  }
+ ]
+}

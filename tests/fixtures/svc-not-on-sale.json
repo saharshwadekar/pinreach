@@ -1,0 +1,12 @@
+{
+ "STATUS_CODE": 200,
+ "RESPONSE": {
+  "MOBGTAGPTB3VS24W": {
+   "type": "ProductServiceabilityValue",
+   "id": "MOBGTAGPTB3VS24W",
+   "titles": {
+    "title": "Apple iPhone 15 (Black, 128 GB)"
+   }
+  }
+ }
+}

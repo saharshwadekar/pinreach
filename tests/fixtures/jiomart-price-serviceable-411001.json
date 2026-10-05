@@ -1,0 +1,46 @@
+{
+ "price_per_piece": {
+  "effective": 799,
+  "marked": 2990,
+  "selling": 999,
+  "currency_code": "INR",
+  "currency_symbol": "₹"
+ },
+ "price_per_unit": {
+  "price": 799,
+  "currency_code": "INR",
+  "currency_symbol": "₹",
+  "unit": "nos"
+ },
+ "price": {
+  "effective": 799,
+  "marked": 2990,
+  "selling": 999,
+  "currency_code": "INR",
+  "currency_symbol": "₹"
+ },
+ "quantity": 5,
+ "article_id": "14198_491973384",
+ "item_type": null,
+ "discount": "73% OFF",
+ "seller": {
+  "uid": 1,
+  "name": "Reliance Retail Limited",
+  "count": 1
+ },
+ "store": {
+  "uid": 14198,
+  "name": "Electronics-GNG-TI3I",
+  "count": 1
+ },
+ "is_gift": false,
+ "is_cod": true,
+ "delivery_promise": {
+  "min": "2026-10-06T07:30:00Z",
+  "max": "2026-10-06T07:30:00Z"
+ },
+ "product_name": "boAt Airdopes 138 with 60 HRS Playback, ASAP Charge, 13 mm Drivers & IPX4 Rating (Active Black)",
+ "inventory_updated_on": null,
+ "pincode": 411001,
+ "is_serviceable": true
+}
